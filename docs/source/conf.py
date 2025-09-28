@@ -65,8 +65,8 @@ import shutil
 #         shutil.copytree(src, dst, dirs_exist_ok=True)
 
 
-def setup(app):
-    app.connect("build-finished", copy_images)
+# def setup(app):
+#     app.connect("build-finished", copy_images)
 
 
 # language = 'zh_CN'
